@@ -1,4 +1,4 @@
-FROM microsoft/mssql-server:2017-latest
+FROM mcr.microsoft.com/mssql/server:2017-latest
 MAINTAINER Shane Genschaw
 
 VOLUME /docker-entrypoint-initdb.d
